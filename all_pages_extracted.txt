@@ -1,0 +1,145 @@
+
+======================================
+=== APOLLO STATE FOR PAGE: welcome ===
+======================================
+Typenames: {'PublicUserConsent': 10, 'Query': 1, 'EventPageInfo': 13, 'EventPage': 6, 'Event': 1, 'EventLocation': 1, 'EventInfo': 1, 'EventSettings': 1, 'DefaultPagePhoto': 1, 'Photo': 4, 'PageContainer': 5, 'DesignLayout': 2, 'WebsiteHeaderPresentationSettings': 1, 'EventDesign': 1, 'EventSession': 1, 'Font': 5, 'FontPackConfiguration': 10, 'ThemeColorScheme': 1, 'DesignPreferenceColor': 2, 'Theme': 1, 'ColorSet': 5, 'CustomThemeAsset': 2, 'CustomTheme': 1, 'EventDesignPreferenceColorPointer': 4, 'EventDesignPreferenceRange': 1, 'EventDesignPreferenceBoolean': 1}
+Found 23 text strings:
+  EventPage:{"id":"93bcf2ac-be26-45a1-8ea9-4357aa09e838"}.pageTitle ===> Nos fiançailles
+  EventPage:{"id":"93061a6c-cb62-4d26-9bb5-a25050b0f8d5"}.pageTitle ===> Informations pratiques
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.eventDisplayName ===> Tryphène & Brady
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"timeFormat":"time"}) ===> 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.greeting ===> Merci de bien vouloir confirmer votre présence 𝗮𝘃𝗮𝗻𝘁 𝗹𝗲 𝗹𝘂𝗻𝗱𝗶 𝟰 𝗺𝗮𝗶 𝟮𝟬𝟮𝟲 en cliquant sur le bouton « RSVP ».   Deux cœurs, une promesse, un avenir à célébrer… C’est avec une immense joie que nous vous invitons à célébrer notre union et à partager avec nous la journée de notre mariage! Votre présence apportera une touche précieuse à ce moment unique, empreint d’amour, de bonheur et de souvenirs inoubliables.
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.title ===> Message des futurs mariés
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.message ===> Nous avons le plaisir de vous convier à notre mariage! Merci de bien vouloir confirmer votre présence avant le 3 mai 2026.
+  EventDesign:256d1fbe-462d-562b-9d95-d91d22f3ad0e.customCss ===> a[href="https://help.withjoy.com/"], a[href="https://withjoy.com/about/"], a[href="https://withjoy.com/wedding-website"] {   display: none !important; } a#menu2brand {   display: none !important; }
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.display ===> Homemade Apple
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.fontFamily ===> Homemade Apple
+  Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead.firebaseFontKey ===> Lush Script
+  DesignPreferenceColor:dc11e51c-46ad-41a8-9863-3b286d6edcca.featureName ===> Aloha Color Preference
+  DesignPreferenceColor:9f31411b-0698-4fe1-ae16-e8878fb8b90d.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:c5ed34f8-8c71-46cd-9b47-6910119e125f.featureName ===> Aloha Color Preference
+  EventDesignPreferenceColorPointer:ec5ef3df-c274-43fb-9bdc-095f2c3d130b.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:299dc6d5-75b9-4ecd-9810-2191ab9f5992.featureName ===> Brannan Color Preference
+  EventDesignPreferenceColorPointer:be797a47-dcaa-4b10-b650-51c38e79363f.featureName ===> Brannan Text Color Preference
+  EventDesignPreferenceRange:8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec.featureName ===> Brannan Background Transparency
+  EventDesignPreferenceBoolean:dd0aac8a-035d-4f00-82d1-523572b5d76d.featureName ===> Brannan Border
+
+======================================
+=== APOLLO STATE FOR PAGE: schedule ===
+======================================
+Typenames: {'PublicUserConsent': 10, 'Query': 1, 'DefaultPagePhoto': 1, 'EventPage': 6, 'Photo': 4, 'PageContainer': 5, 'Event': 1, 'EventSession': 1, 'EventPageInfo': 13, 'DesignLayout': 2, 'Font': 5, 'FontPackConfiguration': 10, 'ThemeColorScheme': 1, 'DesignPreferenceColor': 2, 'Theme': 1, 'ColorSet': 5, 'WebsiteHeaderPresentationSettings': 1, 'CustomThemeAsset': 2, 'CustomTheme': 1, 'EventDesignPreferenceColorPointer': 4, 'EventDesignPreferenceRange': 1, 'EventDesignPreferenceBoolean': 1, 'EventDesign': 1, 'EventLocation': 1, 'EventInfo': 1, 'EventSettings': 1}
+Found 23 text strings:
+  EventPage:{"id":"93bcf2ac-be26-45a1-8ea9-4357aa09e838"}.pageTitle ===> Nos fiançailles
+  EventPage:{"id":"93061a6c-cb62-4d26-9bb5-a25050b0f8d5"}.pageTitle ===> Informations pratiques
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.display ===> Homemade Apple
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.fontFamily ===> Homemade Apple
+  Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead.firebaseFontKey ===> Lush Script
+  DesignPreferenceColor:dc11e51c-46ad-41a8-9863-3b286d6edcca.featureName ===> Aloha Color Preference
+  DesignPreferenceColor:9f31411b-0698-4fe1-ae16-e8878fb8b90d.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:c5ed34f8-8c71-46cd-9b47-6910119e125f.featureName ===> Aloha Color Preference
+  EventDesignPreferenceColorPointer:ec5ef3df-c274-43fb-9bdc-095f2c3d130b.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:299dc6d5-75b9-4ecd-9810-2191ab9f5992.featureName ===> Brannan Color Preference
+  EventDesignPreferenceColorPointer:be797a47-dcaa-4b10-b650-51c38e79363f.featureName ===> Brannan Text Color Preference
+  EventDesignPreferenceRange:8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec.featureName ===> Brannan Background Transparency
+  EventDesignPreferenceBoolean:dd0aac8a-035d-4f00-82d1-523572b5d76d.featureName ===> Brannan Border
+  EventDesign:256d1fbe-462d-562b-9d95-d91d22f3ad0e.customCss ===> a[href="https://help.withjoy.com/"], a[href="https://withjoy.com/about/"], a[href="https://withjoy.com/wedding-website"] {   display: none !important; } a#menu2brand {   display: none !important; }
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.title ===> Message des futurs mariés
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.message ===> Nous avons le plaisir de vous convier à notre mariage! Merci de bien vouloir confirmer votre présence avant le 3 mai 2026.
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.eventDisplayName ===> Tryphène & Brady
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.greeting ===> Merci de bien vouloir confirmer votre présence 𝗮𝘃𝗮𝗻𝘁 𝗹𝗲 𝗹𝘂𝗻𝗱𝗶 𝟰 𝗺𝗮𝗶 𝟮𝟬𝟮𝟲 en cliquant sur le bouton « RSVP ».   Deux cœurs, une promesse, un avenir à célébrer… C’est avec une immense joie que nous vous invitons à célébrer notre union et à partager avec nous la journée de notre mariage! Votre présence apportera une touche précieuse à ce moment unique, empreint d’amour, de bonheur et de souvenirs inoubliables.
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"timeFormat":"time"}) ===> 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+
+======================================
+=== APOLLO STATE FOR PAGE: fiancailles ===
+======================================
+Typenames: {'PublicUserConsent': 10, 'Query': 1, 'EventPageInfo': 13, 'EventPage': 6, 'Event': 1, 'DefaultPagePhoto': 1, 'Photo': 4, 'PageContainer': 5, 'EventSession': 1, 'DesignLayout': 2, 'Font': 5, 'FontPackConfiguration': 10, 'ThemeColorScheme': 1, 'DesignPreferenceColor': 2, 'Theme': 1, 'ColorSet': 5, 'WebsiteHeaderPresentationSettings': 1, 'CustomThemeAsset': 2, 'CustomTheme': 1, 'EventDesignPreferenceColorPointer': 4, 'EventDesignPreferenceRange': 1, 'EventDesignPreferenceBoolean': 1, 'EventDesign': 1, 'EventLocation': 1, 'EventInfo': 1, 'EventSettings': 1}
+Found 23 text strings:
+  EventPage:{"id":"93bcf2ac-be26-45a1-8ea9-4357aa09e838"}.pageTitle ===> Nos fiançailles
+  EventPage:{"id":"93061a6c-cb62-4d26-9bb5-a25050b0f8d5"}.pageTitle ===> Informations pratiques
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.display ===> Homemade Apple
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.fontFamily ===> Homemade Apple
+  Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead.firebaseFontKey ===> Lush Script
+  DesignPreferenceColor:dc11e51c-46ad-41a8-9863-3b286d6edcca.featureName ===> Aloha Color Preference
+  DesignPreferenceColor:9f31411b-0698-4fe1-ae16-e8878fb8b90d.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:c5ed34f8-8c71-46cd-9b47-6910119e125f.featureName ===> Aloha Color Preference
+  EventDesignPreferenceColorPointer:ec5ef3df-c274-43fb-9bdc-095f2c3d130b.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:299dc6d5-75b9-4ecd-9810-2191ab9f5992.featureName ===> Brannan Color Preference
+  EventDesignPreferenceColorPointer:be797a47-dcaa-4b10-b650-51c38e79363f.featureName ===> Brannan Text Color Preference
+  EventDesignPreferenceRange:8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec.featureName ===> Brannan Background Transparency
+  EventDesignPreferenceBoolean:dd0aac8a-035d-4f00-82d1-523572b5d76d.featureName ===> Brannan Border
+  EventDesign:256d1fbe-462d-562b-9d95-d91d22f3ad0e.customCss ===> a[href="https://help.withjoy.com/"], a[href="https://withjoy.com/about/"], a[href="https://withjoy.com/wedding-website"] {   display: none !important; } a#menu2brand {   display: none !important; }
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.title ===> Message des futurs mariés
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.message ===> Nous avons le plaisir de vous convier à notre mariage! Merci de bien vouloir confirmer votre présence avant le 3 mai 2026.
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.eventDisplayName ===> Tryphène & Brady
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.greeting ===> Merci de bien vouloir confirmer votre présence 𝗮𝘃𝗮𝗻𝘁 𝗹𝗲 𝗹𝘂𝗻𝗱𝗶 𝟰 𝗺𝗮𝗶 𝟮𝟬𝟮𝟲 en cliquant sur le bouton « RSVP ».   Deux cœurs, une promesse, un avenir à célébrer… C’est avec une immense joie que nous vous invitons à célébrer notre union et à partager avec nous la journée de notre mariage! Votre présence apportera une touche précieuse à ce moment unique, empreint d’amour, de bonheur et de souvenirs inoubliables.
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"timeFormat":"time"}) ===> 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+
+======================================
+=== APOLLO STATE FOR PAGE: info ===
+======================================
+Typenames: {'PublicUserConsent': 10, 'Query': 1, 'EventLocation': 1, 'EventInfo': 1, 'EventSettings': 1, 'Event': 1, 'DesignLayout': 2, 'WebsiteHeaderPresentationSettings': 1, 'EventDesign': 1, 'EventPageInfo': 13, 'EventPage': 6, 'DefaultPagePhoto': 1, 'Photo': 4, 'PageContainer': 5, 'EventSession': 1, 'Font': 5, 'FontPackConfiguration': 10, 'ThemeColorScheme': 1, 'DesignPreferenceColor': 2, 'Theme': 1, 'ColorSet': 5, 'CustomThemeAsset': 2, 'CustomTheme': 1, 'EventDesignPreferenceColorPointer': 4, 'EventDesignPreferenceRange': 1, 'EventDesignPreferenceBoolean': 1}
+Found 23 text strings:
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.eventDisplayName ===> Tryphène & Brady
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"timeFormat":"time"}) ===> 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.greeting ===> Merci de bien vouloir confirmer votre présence 𝗮𝘃𝗮𝗻𝘁 𝗹𝗲 𝗹𝘂𝗻𝗱𝗶 𝟰 𝗺𝗮𝗶 𝟮𝟬𝟮𝟲 en cliquant sur le bouton « RSVP ».   Deux cœurs, une promesse, un avenir à célébrer… C’est avec une immense joie que nous vous invitons à célébrer notre union et à partager avec nous la journée de notre mariage! Votre présence apportera une touche précieuse à ce moment unique, empreint d’amour, de bonheur et de souvenirs inoubliables.
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.title ===> Message des futurs mariés
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.message ===> Nous avons le plaisir de vous convier à notre mariage! Merci de bien vouloir confirmer votre présence avant le 3 mai 2026.
+  EventDesign:256d1fbe-462d-562b-9d95-d91d22f3ad0e.customCss ===> a[href="https://help.withjoy.com/"], a[href="https://withjoy.com/about/"], a[href="https://withjoy.com/wedding-website"] {   display: none !important; } a#menu2brand {   display: none !important; }
+  EventPage:{"id":"93bcf2ac-be26-45a1-8ea9-4357aa09e838"}.pageTitle ===> Nos fiançailles
+  EventPage:{"id":"93061a6c-cb62-4d26-9bb5-a25050b0f8d5"}.pageTitle ===> Informations pratiques
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.display ===> Homemade Apple
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.fontFamily ===> Homemade Apple
+  Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead.firebaseFontKey ===> Lush Script
+  DesignPreferenceColor:dc11e51c-46ad-41a8-9863-3b286d6edcca.featureName ===> Aloha Color Preference
+  DesignPreferenceColor:9f31411b-0698-4fe1-ae16-e8878fb8b90d.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:c5ed34f8-8c71-46cd-9b47-6910119e125f.featureName ===> Aloha Color Preference
+  EventDesignPreferenceColorPointer:ec5ef3df-c274-43fb-9bdc-095f2c3d130b.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:299dc6d5-75b9-4ecd-9810-2191ab9f5992.featureName ===> Brannan Color Preference
+  EventDesignPreferenceColorPointer:be797a47-dcaa-4b10-b650-51c38e79363f.featureName ===> Brannan Text Color Preference
+  EventDesignPreferenceRange:8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec.featureName ===> Brannan Background Transparency
+  EventDesignPreferenceBoolean:dd0aac8a-035d-4f00-82d1-523572b5d76d.featureName ===> Brannan Border
+
+======================================
+=== APOLLO STATE FOR PAGE: contact ===
+======================================
+Typenames: {'PublicUserConsent': 10, 'Query': 1, 'EventInfo': 1, 'DesignLayout': 2, 'WebsiteHeaderPresentationSettings': 1, 'EventDesign': 1, 'Event': 1, 'EventPageInfo': 13, 'EventPage': 6, 'DefaultPagePhoto': 1, 'Photo': 4, 'PageContainer': 5, 'EventLocation': 1, 'EventSettings': 1, 'EventSession': 1, 'Font': 5, 'FontPackConfiguration': 10, 'ThemeColorScheme': 1, 'DesignPreferenceColor': 2, 'Theme': 1, 'ColorSet': 5, 'CustomThemeAsset': 2, 'CustomTheme': 1, 'EventDesignPreferenceColorPointer': 4, 'EventDesignPreferenceRange': 1, 'EventDesignPreferenceBoolean': 1}
+Found 23 text strings:
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.eventDisplayName ===> Tryphène & Brady
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.greeting ===> Merci de bien vouloir confirmer votre présence 𝗮𝘃𝗮𝗻𝘁 𝗹𝗲 𝗹𝘂𝗻𝗱𝗶 𝟰 𝗺𝗮𝗶 𝟮𝟬𝟮𝟲 en cliquant sur le bouton « RSVP ».   Deux cœurs, une promesse, un avenir à célébrer… C’est avec une immense joie que nous vous invitons à célébrer notre union et à partager avec nous la journée de notre mariage! Votre présence apportera une touche précieuse à ce moment unique, empreint d’amour, de bonheur et de souvenirs inoubliables.
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"timeFormat":"time"}) ===> 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.finalizedDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"long"}) ===> May 30, 2026
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.tentativeDate.dateString({"dateFormat":"full"}) ===> Saturday, May 30, 2026 2:30 PM
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.title ===> Message des futurs mariés
+  EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"}.announcementBanner.message ===> Nous avons le plaisir de vous convier à notre mariage! Merci de bien vouloir confirmer votre présence avant le 3 mai 2026.
+  EventDesign:256d1fbe-462d-562b-9d95-d91d22f3ad0e.customCss ===> a[href="https://help.withjoy.com/"], a[href="https://withjoy.com/about/"], a[href="https://withjoy.com/wedding-website"] {   display: none !important; } a#menu2brand {   display: none !important; }
+  EventPage:{"id":"93bcf2ac-be26-45a1-8ea9-4357aa09e838"}.pageTitle ===> Nos fiançailles
+  EventPage:{"id":"93061a6c-cb62-4d26-9bb5-a25050b0f8d5"}.pageTitle ===> Informations pratiques
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.display ===> Homemade Apple
+  Font:31a0a0b8-e094-5bb7-89d5-391416a1485b.fontFamily ===> Homemade Apple
+  Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead.firebaseFontKey ===> Lush Script
+  DesignPreferenceColor:dc11e51c-46ad-41a8-9863-3b286d6edcca.featureName ===> Aloha Color Preference
+  DesignPreferenceColor:9f31411b-0698-4fe1-ae16-e8878fb8b90d.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:c5ed34f8-8c71-46cd-9b47-6910119e125f.featureName ===> Aloha Color Preference
+  EventDesignPreferenceColorPointer:ec5ef3df-c274-43fb-9bdc-095f2c3d130b.featureName ===> Aloha Text Color Preference
+  EventDesignPreferenceColorPointer:299dc6d5-75b9-4ecd-9810-2191ab9f5992.featureName ===> Brannan Color Preference
+  EventDesignPreferenceColorPointer:be797a47-dcaa-4b10-b650-51c38e79363f.featureName ===> Brannan Text Color Preference
+  EventDesignPreferenceRange:8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec.featureName ===> Brannan Background Transparency
+  EventDesignPreferenceBoolean:dd0aac8a-035d-4f00-82d1-523572b5d76d.featureName ===> Brannan Border

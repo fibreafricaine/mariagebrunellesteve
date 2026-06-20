@@ -1,0 +1,1180 @@
+{
+  "PublicUserConsent:7b105a18-b689-4f28-a6ea-d53bb5bd85b4": {
+    "id": "7b105a18-b689-4f28-a6ea-d53bb5bd85b4",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": true,
+    "consentKey": "hasSeenAccommodationsTour",
+    "createdAt": "2026-04-20T05:48:20.180Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:6b5562cb-f8e6-440a-827e-7bb79e9cd567": {
+    "id": "6b5562cb-f8e6-440a-827e-7bb79e9cd567",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": true,
+    "consentKey": "hasSeenAccommodationsVisibilityBanner",
+    "createdAt": "2026-04-27T12:45:17.617Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:ef3a09c3-4941-43f7-8a39-738ef4025057": {
+    "id": "ef3a09c3-4941-43f7-8a39-738ef4025057",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": true,
+    "consentKey": "hasSeenBookingAssistantTooltip",
+    "createdAt": "2026-04-18T03:51:40.594Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:73c06a0f-7684-42dd-8d58-72435d100cda": {
+    "id": "73c06a0f-7684-42dd-8d58-72435d100cda",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": true,
+    "consentKey": "hasSeenOnboardingVenueDialog",
+    "createdAt": "2026-04-18T17:29:29.802Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:6fbec38e-80bb-4f33-8e51-7280c0187b49": {
+    "id": "6fbec38e-80bb-4f33-8e51-7280c0187b49",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": true,
+    "consentKey": "scheduleOptOutWhereToStayLink",
+    "createdAt": "2026-04-18T05:01:26.055Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:58fcae33-9f48-4515-b173-176d0b5dbaf2": {
+    "id": "58fcae33-9f48-4515-b173-176d0b5dbaf2",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": false,
+    "consentKey": "showBookingLinksOnRegistryPurchaseConfirmation",
+    "createdAt": "2026-04-18T05:01:28.305Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:3400b1b0-6e65-42a5-97fe-0d407a554ec5": {
+    "id": "3400b1b0-6e65-42a5-97fe-0d407a554ec5",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": false,
+    "consentKey": "showExploreMoreStaysOnGuestSite",
+    "createdAt": "2026-04-18T05:01:26.623Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:0c011c5f-4f8e-4812-9c0d-0255bfe64fd7": {
+    "id": "0c011c5f-4f8e-4812-9c0d-0255bfe64fd7",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": false,
+    "consentKey": "showStayAreasOnGuestSite",
+    "createdAt": "2026-04-18T05:01:27.409Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:87319ad3-dcc9-447d-88d3-3efeb212e819": {
+    "id": "87319ad3-dcc9-447d-88d3-3efeb212e819",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": false,
+    "consentKey": "websiteAllowHotelLinkIntercept",
+    "createdAt": "2026-04-19T18:54:49.190Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "PublicUserConsent:db814b63-75f6-4199-bde0-072006815215": {
+    "id": "db814b63-75f6-4199-bde0-072006815215",
+    "__typename": "PublicUserConsent",
+    "consentAnswer": true,
+    "consentKey": "websiteOptOutTripProfit",
+    "createdAt": "2026-04-18T05:01:27.913Z",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d"
+  },
+  "ROOT_QUERY": {
+    "__typename": "Query",
+    "userPublicConsentKeysForEvent({\"eventId\":\"06074c1a-1ccd-511f-88dc-5ad18eb4b47d\"})": [
+      {
+        "__ref": "PublicUserConsent:7b105a18-b689-4f28-a6ea-d53bb5bd85b4"
+      },
+      {
+        "__ref": "PublicUserConsent:6b5562cb-f8e6-440a-827e-7bb79e9cd567"
+      },
+      {
+        "__ref": "PublicUserConsent:ef3a09c3-4941-43f7-8a39-738ef4025057"
+      },
+      {
+        "__ref": "PublicUserConsent:73c06a0f-7684-42dd-8d58-72435d100cda"
+      },
+      {
+        "__ref": "PublicUserConsent:6fbec38e-80bb-4f33-8e51-7280c0187b49"
+      },
+      {
+        "__ref": "PublicUserConsent:58fcae33-9f48-4515-b173-176d0b5dbaf2"
+      },
+      {
+        "__ref": "PublicUserConsent:3400b1b0-6e65-42a5-97fe-0d407a554ec5"
+      },
+      {
+        "__ref": "PublicUserConsent:0c011c5f-4f8e-4812-9c0d-0255bfe64fd7"
+      },
+      {
+        "__ref": "PublicUserConsent:87319ad3-dcc9-447d-88d3-3efeb212e819"
+      },
+      {
+        "__ref": "PublicUserConsent:db814b63-75f6-4199-bde0-072006815215"
+      }
+    ],
+    "eventByName({\"name\":\"tryphene-et-brady\"})": {
+      "__ref": "Event:{\"id\":\"06074c1a-1ccd-511f-88dc-5ad18eb4b47d\"}"
+    }
+  },
+  "EventPageInfo:59989c79-b828-5913-a76c-47627333de85": {
+    "id": "59989c79-b828-5913-a76c-47627333de85",
+    "__typename": "EventPageInfo",
+    "disabled": true,
+    "visibility": "hidden"
+  },
+  "EventPageInfo:38230516-82c2-5be2-9517-74e3e15fea92": {
+    "id": "38230516-82c2-5be2-9517-74e3e15fea92",
+    "__typename": "EventPageInfo",
+    "disabled": false,
+    "visibility": "public"
+  },
+  "EventPageInfo:d23d5e87-704a-4174-ae88-4abc2b186e07": {
+    "id": "d23d5e87-704a-4174-ae88-4abc2b186e07",
+    "__typename": "EventPageInfo",
+    "disabled": false,
+    "visibility": "public"
+  },
+  "EventPage:{\"id\":\"d23d5e87-704a-4174-ae88-4abc2b186e07\"}": {
+    "id": "d23d5e87-704a-4174-ae88-4abc2b186e07",
+    "__typename": "EventPage",
+    "pageSlug": "welcome",
+    "type": "custom",
+    "visibility": "public",
+    "createdAt": {
+      "__typename": "Date",
+      "timestamp": "2026-06-19T22:17:52.632+00:00"
+    },
+    "contentType": "default",
+    "pageKind": "systemCustom",
+    "pageTitle": "Accueil",
+    "pageSubTitleV0918": null,
+    "disabled": false,
+    "private": false,
+    "isPageContainer": true,
+    "layoutType": null,
+    "photoV2": {
+      "__ref": "DefaultPagePhoto:6ef3b170-ef47-54c2-becb-7a1ec5f6adb2"
+    },
+    "mobilePhoto": null,
+    "photoPresentation": null
+  },
+  "EventPage:{\"id\":\"38230516-82c2-5be2-9517-74e3e15fea92\"}": {
+    "id": "38230516-82c2-5be2-9517-74e3e15fea92",
+    "__typename": "EventPage",
+    "pageSlug": "rsvp",
+    "type": "rsvp",
+    "visibility": "public",
+    "createdAt": {
+      "__typename": "Date",
+      "timestamp": "2026-04-17T15:09:55.656+00:00"
+    },
+    "contentType": null,
+    "pageKind": "systemLegacy",
+    "pageTitle": "RSVP",
+    "pageSubTitleV0918": null,
+    "disabled": false,
+    "private": false,
+    "isPageContainer": false,
+    "layoutType": null,
+    "photoV2": null,
+    "mobilePhoto": null,
+    "photoPresentation": null
+  },
+  "EventPage:{\"id\":\"e182dd1b-fa61-4f68-8218-8b7a03213700\"}": {
+    "id": "e182dd1b-fa61-4f68-8218-8b7a03213700",
+    "__typename": "EventPage",
+    "pageSlug": "schedule",
+    "type": "custom",
+    "visibility": "public",
+    "createdAt": {
+      "__typename": "Date",
+      "timestamp": "2026-06-19T22:17:52.632+00:00"
+    },
+    "contentType": "default",
+    "pageKind": "systemCustom",
+    "pageTitle": "Programme",
+    "pageSubTitleV0918": null,
+    "disabled": false,
+    "private": false,
+    "isPageContainer": true,
+    "layoutType": null,
+    "photoV2": {
+      "__ref": "Photo:1b990a65-0cee-5ff3-9a09-52d8ea248037"
+    },
+    "mobilePhoto": {
+      "__ref": "Photo:1b990a65-0cee-5ff3-9a09-52d8ea248037"
+    },
+    "photoPresentation": null
+  },
+  "EventPage:{\"id\":\"93bcf2ac-be26-45a1-8ea9-4357aa09e838\"}": {
+    "id": "93bcf2ac-be26-45a1-8ea9-4357aa09e838",
+    "__typename": "EventPage",
+    "pageSlug": "nos-fiancailles",
+    "type": "custom",
+    "visibility": "public",
+    "createdAt": {
+      "__typename": "Date",
+      "timestamp": "2026-06-19T22:17:52.632+00:00"
+    },
+    "contentType": "userGenerated",
+    "pageKind": "userCustom",
+    "pageTitle": "Nos fiançailles",
+    "pageSubTitleV0918": null,
+    "disabled": false,
+    "private": false,
+    "isPageContainer": true,
+    "layoutType": null,
+    "photoV2": {
+      "__ref": "Photo:5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c"
+    },
+    "mobilePhoto": {
+      "__ref": "Photo:5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c"
+    },
+    "photoPresentation": null
+  },
+  "EventPage:{\"id\":\"93061a6c-cb62-4d26-9bb5-a25050b0f8d5\"}": {
+    "id": "93061a6c-cb62-4d26-9bb5-a25050b0f8d5",
+    "__typename": "EventPage",
+    "pageSlug": "informations-utiles",
+    "type": "custom",
+    "visibility": "public",
+    "createdAt": {
+      "__typename": "Date",
+      "timestamp": "2026-06-19T22:17:52.632+00:00"
+    },
+    "contentType": "userGenerated",
+    "pageKind": "userCustom",
+    "pageTitle": "Informations pratiques",
+    "pageSubTitleV0918": null,
+    "disabled": false,
+    "private": false,
+    "isPageContainer": true,
+    "layoutType": null,
+    "photoV2": {
+      "__ref": "Photo:5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c"
+    },
+    "mobilePhoto": {
+      "__ref": "Photo:5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c"
+    },
+    "photoPresentation": null
+  },
+  "EventPage:{\"id\":\"d469ed20-8719-470a-8e6e-cd525ab102a0\"}": {
+    "id": "d469ed20-8719-470a-8e6e-cd525ab102a0",
+    "__typename": "EventPage",
+    "pageSlug": "contact",
+    "type": "custom",
+    "visibility": "public",
+    "createdAt": {
+      "__typename": "Date",
+      "timestamp": "2026-06-19T22:17:52.632+00:00"
+    },
+    "contentType": "userGenerated",
+    "pageKind": "userCustom",
+    "pageTitle": "Contact",
+    "pageSubTitleV0918": null,
+    "disabled": false,
+    "private": false,
+    "isPageContainer": true,
+    "layoutType": null,
+    "photoV2": {
+      "__ref": "Photo:5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c"
+    },
+    "mobilePhoto": {
+      "__ref": "Photo:5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c"
+    },
+    "photoPresentation": null
+  },
+  "Event:{\"id\":\"06074c1a-1ccd-511f-88dc-5ad18eb4b47d\"}": {
+    "id": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d",
+    "__typename": "Event",
+    "pageInfo({\"type\":\"registry\"})": {
+      "__ref": "EventPageInfo:59989c79-b828-5913-a76c-47627333de85"
+    },
+    "pageInfo({\"type\":\"rsvp\"})": {
+      "__ref": "EventPageInfo:38230516-82c2-5be2-9517-74e3e15fea92"
+    },
+    "pageInfo({\"type\":\"welcome\"})": {
+      "__ref": "EventPageInfo:d23d5e87-704a-4174-ae88-4abc2b186e07"
+    },
+    "pages": [
+      {
+        "__ref": "EventPage:{\"id\":\"d23d5e87-704a-4174-ae88-4abc2b186e07\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"38230516-82c2-5be2-9517-74e3e15fea92\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"e182dd1b-fa61-4f68-8218-8b7a03213700\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"93bcf2ac-be26-45a1-8ea9-4357aa09e838\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"93061a6c-cb62-4d26-9bb5-a25050b0f8d5\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"d469ed20-8719-470a-8e6e-cd525ab102a0\"}"
+      }
+    ],
+    "firebaseId": "ede5a6af83d73f0cc32f30ff53821b7961672e52f7596c898",
+    "info({\"admin\":false})": {
+      "__ref": "EventInfo:{\"id\":\"7c81219d-2e09-595d-b220-924d5ad6733f\"}"
+    },
+    "firebaseCreateAt": {
+      "__typename": "Date",
+      "timestamp": "2026-04-17T15:33:09.904+00:00"
+    },
+    "productVerticals": null,
+    "settings": {
+      "__ref": "EventSettings:623b5890-1b63-5078-8b88-684656311f7a"
+    },
+    "published": true,
+    "websiteState": "published",
+    "featureFlags": [
+      "useModernEcards",
+      "useAccommodationsPageForTravel",
+      "useWebsitePublishedState",
+      "useModernEcards",
+      "bypassWebsiteThemeCustomization",
+      "useWebsiteDesignerV3",
+      "useStoryAsCustomPage",
+      "useFaqAsCustomPage",
+      "useWelcomeAsCustomPage",
+      "useVipAsCustomPage",
+      "useScheduleAsCustomPage",
+      "useGuestPageContentRedesign",
+      "useCharm",
+      "websitePremiumVideoBackgroundEnabled"
+    ],
+    "pages({\"admin\":false})": [
+      {
+        "__ref": "EventPage:{\"id\":\"d23d5e87-704a-4174-ae88-4abc2b186e07\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"38230516-82c2-5be2-9517-74e3e15fea92\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"e182dd1b-fa61-4f68-8218-8b7a03213700\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"93bcf2ac-be26-45a1-8ea9-4357aa09e838\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"93061a6c-cb62-4d26-9bb5-a25050b0f8d5\"}"
+      },
+      {
+        "__ref": "EventPage:{\"id\":\"d469ed20-8719-470a-8e6e-cd525ab102a0\"}"
+      }
+    ],
+    "pageContainers": [
+      {
+        "__ref": "PageContainer:d23d5e87-704a-4174-ae88-4abc2b186e07"
+      },
+      {
+        "__ref": "PageContainer:e182dd1b-fa61-4f68-8218-8b7a03213700"
+      },
+      {
+        "__ref": "PageContainer:93bcf2ac-be26-45a1-8ea9-4357aa09e838"
+      },
+      {
+        "__ref": "PageContainer:93061a6c-cb62-4d26-9bb5-a25050b0f8d5"
+      },
+      {
+        "__ref": "PageContainer:d469ed20-8719-470a-8e6e-cd525ab102a0"
+      }
+    ],
+    "info": {
+      "__ref": "EventInfo:{\"id\":\"7c81219d-2e09-595d-b220-924d5ad6733f\"}"
+    },
+    "eventDesign({\"purpose\":\"live\"})": {
+      "__ref": "EventDesign:256d1fbe-462d-562b-9d95-d91d22f3ad0e"
+    },
+    "website": "tryphene-et-brady",
+    "useLegacyGuestSite": false,
+    "activeSession": {
+      "__ref": "EventSession:00000000-0000-0000-0000-000000000000"
+    },
+    "pagesInfo": [
+      {
+        "__ref": "EventPageInfo:d23d5e87-704a-4174-ae88-4abc2b186e07"
+      },
+      {
+        "__ref": "EventPageInfo:38230516-82c2-5be2-9517-74e3e15fea92"
+      },
+      {
+        "__ref": "EventPageInfo:e182dd1b-fa61-4f68-8218-8b7a03213700"
+      },
+      {
+        "__ref": "EventPageInfo:93bcf2ac-be26-45a1-8ea9-4357aa09e838"
+      },
+      {
+        "__ref": "EventPageInfo:93061a6c-cb62-4d26-9bb5-a25050b0f8d5"
+      },
+      {
+        "__ref": "EventPageInfo:d469ed20-8719-470a-8e6e-cd525ab102a0"
+      },
+      {
+        "__ref": "EventPageInfo:4aacdbb3-ac44-51fb-91ed-3ce379114152"
+      },
+      {
+        "__ref": "EventPageInfo:311d0966-b01a-5da3-a462-77de86e48485"
+      },
+      {
+        "__ref": "EventPageInfo:dd2b1200-8f9c-4b2c-b7db-5151e8a0f912"
+      },
+      {
+        "__ref": "EventPageInfo:cd447354-743b-4bcd-926d-b4afefdf9618"
+      },
+      {
+        "__ref": "EventPageInfo:1b1ea669-667b-40fe-b04d-045b90d9b632"
+      },
+      {
+        "__ref": "EventPageInfo:79c4980d-a39e-4984-9a21-5ea23bb486a1"
+      },
+      {
+        "__ref": "EventPageInfo:59989c79-b828-5913-a76c-47627333de85"
+      }
+    ],
+    "photo": {
+      "__ref": "Photo:f172c5bf-943a-59d1-bf34-0e0e91a446b4"
+    },
+    "photoV2Url": "https://withjoy.com/media/ede5a6af83d73f0cc32f30ff53821b7961672e52f7596c898/399149d0-3df9-11f1-a286-4b83e5c7fa75-Brady%20-70.jpg",
+    "photoV2UrlMobile": "https://withjoy.com/media/ede5a6af83d73f0cc32f30ff53821b7961672e52f7596c898/2e105290-3bbf-11f1-8a1f-c3472b7afe94-T%26B%20photo%20%26%20monogramme_Re%CC%81ponse%20mail.png",
+    "mobilePhoto": {
+      "__ref": "Photo:27245b56-9ba2-5895-b31b-23852e93b5ed"
+    },
+    "video": null,
+    "hasEnabledLegacyRsvpQuestions": true
+  },
+  "EventLocation:null": {
+    "id": null,
+    "__typename": "EventLocation",
+    "city": null,
+    "country": null,
+    "latitude": null,
+    "longitude": null,
+    "name": "Bruxelles",
+    "placeId": null,
+    "state": null,
+    "address1": null,
+    "address2": null,
+    "postalCode": null
+  },
+  "EventInfo:{\"id\":\"7c81219d-2e09-595d-b220-924d5ad6733f\"}": {
+    "id": "7c81219d-2e09-595d-b220-924d5ad6733f",
+    "__typename": "EventInfo",
+    "eventDisplayName": "Tryphène & Brady",
+    "eventPassword": "xeup7d",
+    "eventType": "wedding",
+    "fianceeFirstName": "Brady",
+    "fianceeLastName": "Bolingoli",
+    "ownerFirstName": "Tryphène",
+    "ownerLastName": "Nseku",
+    "locale": "fr-FR",
+    "locationInfo": {
+      "__ref": "EventLocation:null"
+    },
+    "finalizedDate": {
+      "__typename": "Date",
+      "milliseconds": 1780144200000,
+      "dateString({\"dateFormat\":\"long\"})": "May 30, 2026",
+      "timestamp": "2026-05-30T14:30:00.000+02:00",
+      "timezone": "Europe/Brussels",
+      "dateString({\"timeFormat\":\"time\"})": "2:30 PM",
+      "dateString({\"dateFormat\":\"full\"})": "Saturday, May 30, 2026 2:30 PM"
+    },
+    "tentativeDate": {
+      "__typename": "Date",
+      "milliseconds": 1780144200000,
+      "dateString({\"dateFormat\":\"long\"})": "May 30, 2026",
+      "timestamp": "2026-05-30T14:30:00.000+02:00",
+      "timezone": "Europe/Brussels",
+      "dateString({\"dateFormat\":\"full\"})": "Saturday, May 30, 2026 2:30 PM"
+    },
+    "story": null,
+    "qanda": [],
+    "greeting": "Merci de bien vouloir confirmer votre présence 𝗮𝘃𝗮𝗻𝘁 𝗹𝗲 𝗹𝘂𝗻𝗱𝗶 𝟰 𝗺𝗮𝗶 𝟮𝟬𝟮𝟲 en cliquant sur le bouton « RSVP ». \n\nDeux cœurs, une promesse, un avenir à célébrer… C’est avec une immense joie que nous vous invitons à célébrer notre union et à partager avec nous la journée de notre mariage! Votre présence apportera une touche précieuse à ce moment unique, empreint d’amour, de bonheur et de souvenirs inoubliables.",
+    "announcementBanner": {
+      "__typename": "EventAnnouncementBanner",
+      "title": "Message des futurs mariés",
+      "message": "Nous avons le plaisir de vous convier à notre mariage!\nMerci de bien vouloir confirmer votre présence avant le 3 mai 2026.",
+      "active": false
+    },
+    "location": "Bruxelles",
+    "timezone": "Europe/Brussels",
+    "dateV0918": {
+      "__typename": "Date",
+      "milliseconds": 1780144200000
+    }
+  },
+  "EventSettings:623b5890-1b63-5078-8b88-684656311f7a": {
+    "id": "623b5890-1b63-5078-8b88-684656311f7a",
+    "__typename": "EventSettings",
+    "hideEventCountdown": false,
+    "hideDownloadAppPage": true,
+    "hideFromSearchEngines": true,
+    "hideFromJoySearch": false,
+    "requirePasswordForEventDate": false,
+    "requirePasswordForEventLocation": false,
+    "requirePasswordToUploadPhotos": false,
+    "requirePasswordToViewEngagementPhotos": false,
+    "privacyMode": "public",
+    "optOutOfCharm": false,
+    "allowFacebookAndInstagramSharingOnApp": true,
+    "allowGuestsNotInGuestListToRSVP": true,
+    "allowGuestsToInviteOtherGuestsOnApp": true,
+    "allowGuestsToRSVPPlusOne": false,
+    "allowGuestsToViewOtherGuestsOnApp": false,
+    "requiresGuestIdentification": false
+  },
+  "DefaultPagePhoto:6ef3b170-ef47-54c2-becb-7a1ec5f6adb2": {
+    "id": "6ef3b170-ef47-54c2-becb-7a1ec5f6adb2",
+    "__typename": "DefaultPagePhoto",
+    "url": "https://withjoy.com/assets/public/defaultwebsitephotos/welcome_v1.jpeg",
+    "width": 3456,
+    "height": 3363,
+    "altTag": "",
+    "layout": {
+      "__typename": "DefaultPagePhotoLayout",
+      "alignX": "center",
+      "alignY": "center"
+    }
+  },
+  "Photo:1b990a65-0cee-5ff3-9a09-52d8ea248037": {
+    "id": "1b990a65-0cee-5ff3-9a09-52d8ea248037",
+    "__typename": "Photo",
+    "url": "https://withjoy.com/media/06074c1a-1ccd-511f-88dc-5ad18eb4b47d/9ea5f652-3a74-11f1-9cb2-81a98fe1ad61-Wedding-109.jpg",
+    "width": 4672,
+    "height": 7008,
+    "altTag": null,
+    "layout": {
+      "__typename": "PhotoLayout",
+      "alignX": "center",
+      "alignY": "center"
+    },
+    "transform": null
+  },
+  "Photo:5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c": {
+    "id": "5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c",
+    "__typename": "Photo",
+    "url": "https://withjoy.com/media/ede5a6af83d73f0cc32f30ff53821b7961672e52f7596c898/9d702e10-3ce8-11f1-9a7b-67c52d8ecda9-Untitled%20(1920%20x%20560%20px)%20(2).png",
+    "width": 1440,
+    "height": 420,
+    "altTag": null,
+    "layout": {
+      "__typename": "PhotoLayout",
+      "alignX": "center",
+      "alignY": "center"
+    },
+    "transform": null
+  },
+  "PageContainer:d23d5e87-704a-4174-ae88-4abc2b186e07": {
+    "id": "d23d5e87-704a-4174-ae88-4abc2b186e07",
+    "__typename": "PageContainer",
+    "mainPhotoAlignment": null,
+    "mainPhotoCropInfo": null,
+    "mainPhotoPresentationLayout": null
+  },
+  "PageContainer:e182dd1b-fa61-4f68-8218-8b7a03213700": {
+    "id": "e182dd1b-fa61-4f68-8218-8b7a03213700",
+    "__typename": "PageContainer",
+    "mainPhotoAlignment": null,
+    "mainPhotoCropInfo": {
+      "__typename": "MainPhotoCropInfo",
+      "unit": "percent",
+      "height": 37.5,
+      "width": 100,
+      "x": 0,
+      "y": 13.740885416666668
+    },
+    "mainPhotoPresentationLayout": "pageWidth"
+  },
+  "PageContainer:93bcf2ac-be26-45a1-8ea9-4357aa09e838": {
+    "id": "93bcf2ac-be26-45a1-8ea9-4357aa09e838",
+    "__typename": "PageContainer",
+    "mainPhotoAlignment": {
+      "__typename": "PhotoAlignmentValue",
+      "x": "center",
+      "y": "center"
+    },
+    "mainPhotoCropInfo": null,
+    "mainPhotoPresentationLayout": "center"
+  },
+  "PageContainer:93061a6c-cb62-4d26-9bb5-a25050b0f8d5": {
+    "id": "93061a6c-cb62-4d26-9bb5-a25050b0f8d5",
+    "__typename": "PageContainer",
+    "mainPhotoAlignment": {
+      "__typename": "PhotoAlignmentValue",
+      "x": "center",
+      "y": "center"
+    },
+    "mainPhotoCropInfo": null,
+    "mainPhotoPresentationLayout": "center"
+  },
+  "PageContainer:d469ed20-8719-470a-8e6e-cd525ab102a0": {
+    "id": "d469ed20-8719-470a-8e6e-cd525ab102a0",
+    "__typename": "PageContainer",
+    "mainPhotoAlignment": {
+      "__typename": "PhotoAlignmentValue",
+      "x": "center",
+      "y": "center"
+    },
+    "mainPhotoCropInfo": null,
+    "mainPhotoPresentationLayout": "center"
+  },
+  "DesignLayout:e95f1257-52bb-4ff2-8836-7b1a3ddd32ac": {
+    "id": "e95f1257-52bb-4ff2-8836-7b1a3ddd32ac",
+    "__typename": "DesignLayout",
+    "layoutType": "brannan",
+    "name": "Brannan"
+  },
+  "WebsiteHeaderPresentationSettings:{\"id\":\"06074c1a-1ccd-511f-88dc-5ad18eb4b47d\",\"schemaURL\":\"https://withjoy.com/assets/public/websiteHeaderSchemas/videoBackground-v1_1_1.json\",\"websiteLayout\":\"brannan\"}": {
+    "id": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d",
+    "schemaURL": "https://withjoy.com/assets/public/websiteHeaderSchemas/videoBackground-v1_1_1.json",
+    "websiteLayout": "brannan",
+    "__typename": "WebsiteHeaderPresentationSettings",
+    "eventId": "06074c1a-1ccd-511f-88dc-5ad18eb4b47d",
+    "dataJSON": {
+      "$id": "https://withjoy.com/assets/public/websiteHeaderSchemas/videoBackground-v1_1_1.json",
+      "video": {
+        "mobileUrl": "https://youtube.com/watch?v=RHm68t4XYjo?si=BnoV769--vMnv1Vj",
+        "desktopUrl": "https://youtu.be/S1_wOfuW5do",
+        "placeholderImageUrl": "https://withjoy.com/media/ede5a6af83d73f0cc32f30ff53821b7961672e52f7596c898/d88b6320-3bbc-11f1-8914-5761554ac36c-T%26B%20fleurs_3.png"
+      },
+      "colors": {
+        "nameAndNavFontColor": "#785E5C",
+        "nameAndNavBackgroundColor": "#FFFFFF",
+        "nameAndNavBackgroundColorEnabled": false
+      },
+      "eventName": {
+        "content": "\n",
+        "pageAlignment": {
+          "x": "center",
+          "y": "center"
+        },
+        "textAlignment": "center",
+        "hasModifiedEventNameOnce": true
+      },
+      "navigationStyle": {
+        "backgroundColor": "#dd571c",
+        "backgroundEffect": "solid",
+        "navigationTextColor": "#ffffff"
+      },
+      "headerTitleStyle": {
+        "headerTextColor": "#dd571c",
+        "backgroundEffect": "clear"
+      },
+      "presentationLayout": "videoBackground"
+    }
+  },
+  "EventDesign:256d1fbe-462d-562b-9d95-d91d22f3ad0e": {
+    "id": "256d1fbe-462d-562b-9d95-d91d22f3ad0e",
+    "__typename": "EventDesign",
+    "websiteLayout": {
+      "__ref": "DesignLayout:e95f1257-52bb-4ff2-8836-7b1a3ddd32ac"
+    },
+    "activeWebsiteHeaderPresentationLayout": {
+      "__ref": "WebsiteHeaderPresentationSettings:{\"id\":\"06074c1a-1ccd-511f-88dc-5ad18eb4b47d\",\"schemaURL\":\"https://withjoy.com/assets/public/websiteHeaderSchemas/videoBackground-v1_1_1.json\",\"websiteLayout\":\"brannan\"}"
+    },
+    "hasUnpublishedChanges": true,
+    "hasVisitedDesignPage": true,
+    "guestSiteTarget": "charm",
+    "brannanNavigation": "singlePage",
+    "useCustomTheme": true,
+    "font": {
+      "__ref": "Font:31a0a0b8-e094-5bb7-89d5-391416a1485b"
+    },
+    "fonts": [
+      {
+        "__ref": "FontPackConfiguration:22ac70b2-34cb-4545-af61-476210d273f5"
+      },
+      {
+        "__ref": "FontPackConfiguration:c0a2f6b7-314d-4710-84bb-835055ce0d25"
+      },
+      {
+        "__ref": "FontPackConfiguration:093266f5-c3ec-47ce-9677-a9d2fb206109"
+      },
+      {
+        "__ref": "FontPackConfiguration:a549cd5f-1ef6-485f-ab02-5d54973d8a81"
+      },
+      {
+        "__ref": "FontPackConfiguration:2d6097f1-d3c8-4b12-add2-4b60bca8221a"
+      },
+      {
+        "__ref": "FontPackConfiguration:0fda3f08-47ac-4e2f-8a08-3422b94fb444"
+      },
+      {
+        "__ref": "FontPackConfiguration:24a1536f-7daf-4d08-9d85-238eaa4222f6"
+      },
+      {
+        "__ref": "FontPackConfiguration:c244ea1b-4576-41b6-9acc-999358af38d9"
+      },
+      {
+        "__ref": "FontPackConfiguration:e23bf153-d078-4fb9-beea-18dfcdb2f0c8"
+      },
+      {
+        "__ref": "FontPackConfiguration:6fa66857-a921-4a95-a006-de2655c109e1"
+      }
+    ],
+    "theme": {
+      "__ref": "Theme:684b1031-4272-52a1-9980-f55f15abe8e1"
+    },
+    "accent": "blank",
+    "customCss": "a[href=\"https://help.withjoy.com/\"],\na[href=\"https://withjoy.com/about/\"],\na[href=\"https://withjoy.com/wedding-website\"] {\n  display: none !important;\n}\na#menu2brand {\n  display: none !important;\n}",
+    "colorPalette": [
+      {
+        "__ref": "ColorSet:00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "__ref": "ColorSet:00000000-0000-0000-0000-000000000001"
+      },
+      {
+        "__ref": "ColorSet:00000000-0000-0000-0000-000000000002"
+      },
+      {
+        "__ref": "ColorSet:00000000-0000-0000-0000-000000000003"
+      },
+      {
+        "__ref": "ColorSet:00000000-0000-0000-0000-000000000004"
+      }
+    ],
+    "customTheme": {
+      "__ref": "CustomTheme:813ce1ca-d7db-4d3c-a29b-2434cfe086aa"
+    },
+    "designPreferences": [
+      {
+        "__ref": "EventDesignPreferenceColorPointer:c5ed34f8-8c71-46cd-9b47-6910119e125f"
+      },
+      {
+        "__ref": "EventDesignPreferenceColorPointer:ec5ef3df-c274-43fb-9bdc-095f2c3d130b"
+      },
+      {
+        "__ref": "EventDesignPreferenceColorPointer:299dc6d5-75b9-4ecd-9810-2191ab9f5992"
+      },
+      {
+        "__ref": "EventDesignPreferenceColorPointer:be797a47-dcaa-4b10-b650-51c38e79363f"
+      },
+      {
+        "__ref": "EventDesignPreferenceRange:8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec"
+      },
+      {
+        "__ref": "EventDesignPreferenceBoolean:dd0aac8a-035d-4f00-82d1-523572b5d76d"
+      }
+    ],
+    "linkAndButtonColor": "#dd571c",
+    "artFontColor": "#333333",
+    "artBackgroundColor": "#ffffff",
+    "pageBackgroundColor": "#F3EEE8",
+    "pageFontColor": "#65473c"
+  },
+  "EventSession:00000000-0000-0000-0000-000000000000": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "__typename": "EventSession",
+    "hasUnlocked": true
+  },
+  "EventPageInfo:e182dd1b-fa61-4f68-8218-8b7a03213700": {
+    "id": "e182dd1b-fa61-4f68-8218-8b7a03213700",
+    "__typename": "EventPageInfo",
+    "visibility": "public"
+  },
+  "EventPageInfo:93bcf2ac-be26-45a1-8ea9-4357aa09e838": {
+    "id": "93bcf2ac-be26-45a1-8ea9-4357aa09e838",
+    "__typename": "EventPageInfo",
+    "visibility": "public"
+  },
+  "EventPageInfo:93061a6c-cb62-4d26-9bb5-a25050b0f8d5": {
+    "id": "93061a6c-cb62-4d26-9bb5-a25050b0f8d5",
+    "__typename": "EventPageInfo",
+    "visibility": "public"
+  },
+  "EventPageInfo:d469ed20-8719-470a-8e6e-cd525ab102a0": {
+    "id": "d469ed20-8719-470a-8e6e-cd525ab102a0",
+    "__typename": "EventPageInfo",
+    "visibility": "public"
+  },
+  "EventPageInfo:4aacdbb3-ac44-51fb-91ed-3ce379114152": {
+    "id": "4aacdbb3-ac44-51fb-91ed-3ce379114152",
+    "__typename": "EventPageInfo",
+    "visibility": "hidden"
+  },
+  "EventPageInfo:311d0966-b01a-5da3-a462-77de86e48485": {
+    "id": "311d0966-b01a-5da3-a462-77de86e48485",
+    "__typename": "EventPageInfo",
+    "visibility": "hidden"
+  },
+  "EventPageInfo:dd2b1200-8f9c-4b2c-b7db-5151e8a0f912": {
+    "id": "dd2b1200-8f9c-4b2c-b7db-5151e8a0f912",
+    "__typename": "EventPageInfo",
+    "visibility": "hidden"
+  },
+  "EventPageInfo:cd447354-743b-4bcd-926d-b4afefdf9618": {
+    "id": "cd447354-743b-4bcd-926d-b4afefdf9618",
+    "__typename": "EventPageInfo",
+    "visibility": "hidden"
+  },
+  "EventPageInfo:1b1ea669-667b-40fe-b04d-045b90d9b632": {
+    "id": "1b1ea669-667b-40fe-b04d-045b90d9b632",
+    "__typename": "EventPageInfo",
+    "visibility": "hidden"
+  },
+  "EventPageInfo:79c4980d-a39e-4984-9a21-5ea23bb486a1": {
+    "id": "79c4980d-a39e-4984-9a21-5ea23bb486a1",
+    "__typename": "EventPageInfo",
+    "visibility": "hidden"
+  },
+  "Font:31a0a0b8-e094-5bb7-89d5-391416a1485b": {
+    "id": "31a0a0b8-e094-5bb7-89d5-391416a1485b",
+    "__typename": "Font",
+    "display": "Homemade Apple",
+    "fontFamily": "Homemade Apple",
+    "textTransform": "none"
+  },
+  "Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead": {
+    "id": "0976eda8-747d-5fcf-9fa2-8d5af9e89ead",
+    "__typename": "Font",
+    "fontFamily": "Allura",
+    "fontSize": 82,
+    "fontWeight": 400,
+    "firebaseFontKey": "Lush Script"
+  },
+  "FontPackConfiguration:22ac70b2-34cb-4545-af61-476210d273f5": {
+    "id": "22ac70b2-34cb-4545-af61-476210d273f5",
+    "__typename": "FontPackConfiguration",
+    "category": "EVENT_TITLE",
+    "font": {
+      "__ref": "Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead"
+    },
+    "size": null,
+    "sizePercent": 89
+  },
+  "Font:3087eefe-34cf-56a1-94f6-53ae6aec0872": {
+    "id": "3087eefe-34cf-56a1-94f6-53ae6aec0872",
+    "__typename": "Font",
+    "fontFamily": "Gudea",
+    "fontSize": 55,
+    "fontWeight": 400,
+    "firebaseFontKey": "Gudea"
+  },
+  "FontPackConfiguration:c0a2f6b7-314d-4710-84bb-835055ce0d25": {
+    "id": "c0a2f6b7-314d-4710-84bb-835055ce0d25",
+    "__typename": "FontPackConfiguration",
+    "category": "NAVIGATION",
+    "font": {
+      "__ref": "Font:3087eefe-34cf-56a1-94f6-53ae6aec0872"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "FontPackConfiguration:093266f5-c3ec-47ce-9677-a9d2fb206109": {
+    "id": "093266f5-c3ec-47ce-9677-a9d2fb206109",
+    "__typename": "FontPackConfiguration",
+    "category": "PAGE_TITLE",
+    "font": {
+      "__ref": "Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "Font:70387fc9-03aa-54fd-bc7c-a511215e7458": {
+    "id": "70387fc9-03aa-54fd-bc7c-a511215e7458",
+    "__typename": "Font",
+    "fontFamily": "Quattrocento",
+    "fontSize": 76,
+    "fontWeight": 400,
+    "firebaseFontKey": "Quattrocento"
+  },
+  "FontPackConfiguration:a549cd5f-1ef6-485f-ab02-5d54973d8a81": {
+    "id": "a549cd5f-1ef6-485f-ab02-5d54973d8a81",
+    "__typename": "FontPackConfiguration",
+    "category": "HEADING",
+    "font": {
+      "__ref": "Font:70387fc9-03aa-54fd-bc7c-a511215e7458"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "FontPackConfiguration:2d6097f1-d3c8-4b12-add2-4b60bca8221a": {
+    "id": "2d6097f1-d3c8-4b12-add2-4b60bca8221a",
+    "__typename": "FontPackConfiguration",
+    "category": "SUB_HEADING",
+    "font": {
+      "__ref": "Font:70387fc9-03aa-54fd-bc7c-a511215e7458"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "FontPackConfiguration:0fda3f08-47ac-4e2f-8a08-3422b94fb444": {
+    "id": "0fda3f08-47ac-4e2f-8a08-3422b94fb444",
+    "__typename": "FontPackConfiguration",
+    "category": "CAPTION",
+    "font": {
+      "__ref": "Font:70387fc9-03aa-54fd-bc7c-a511215e7458"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "FontPackConfiguration:24a1536f-7daf-4d08-9d85-238eaa4222f6": {
+    "id": "24a1536f-7daf-4d08-9d85-238eaa4222f6",
+    "__typename": "FontPackConfiguration",
+    "category": "PARAGRAPH",
+    "font": {
+      "__ref": "Font:70387fc9-03aa-54fd-bc7c-a511215e7458"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "Font:98d14ff9-f012-4439-b3c6-44a64ded5674": {
+    "id": "98d14ff9-f012-4439-b3c6-44a64ded5674",
+    "__typename": "Font",
+    "fontFamily": "Inter",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "firebaseFontKey": "Inter"
+  },
+  "FontPackConfiguration:c244ea1b-4576-41b6-9acc-999358af38d9": {
+    "id": "c244ea1b-4576-41b6-9acc-999358af38d9",
+    "__typename": "FontPackConfiguration",
+    "category": "BUTTONS",
+    "font": {
+      "__ref": "Font:98d14ff9-f012-4439-b3c6-44a64ded5674"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "FontPackConfiguration:e23bf153-d078-4fb9-beea-18dfcdb2f0c8": {
+    "id": "e23bf153-d078-4fb9-beea-18dfcdb2f0c8",
+    "__typename": "FontPackConfiguration",
+    "category": "DATE",
+    "font": {
+      "__ref": "Font:70387fc9-03aa-54fd-bc7c-a511215e7458"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "FontPackConfiguration:6fa66857-a921-4a95-a006-de2655c109e1": {
+    "id": "6fa66857-a921-4a95-a006-de2655c109e1",
+    "__typename": "FontPackConfiguration",
+    "category": "LOCATION",
+    "font": {
+      "__ref": "Font:70387fc9-03aa-54fd-bc7c-a511215e7458"
+    },
+    "size": null,
+    "sizePercent": 100
+  },
+  "ThemeColorScheme:bd3e660d-ab82-4993-9d8c-11a26d70f659": {
+    "id": "bd3e660d-ab82-4993-9d8c-11a26d70f659",
+    "__typename": "ThemeColorScheme",
+    "colors": [
+      {
+        "__typename": "Color",
+        "hex": "#ffffff",
+        "isLight": true
+      },
+      {
+        "__typename": "Color",
+        "hex": "#333333",
+        "isLight": false
+      }
+    ]
+  },
+  "DesignLayout:8254277b-b461-431e-80ad-afbc22fc4468": {
+    "id": "8254277b-b461-431e-80ad-afbc22fc4468",
+    "__typename": "DesignLayout"
+  },
+  "DesignPreferenceColor:dc11e51c-46ad-41a8-9863-3b286d6edcca": {
+    "id": "dc11e51c-46ad-41a8-9863-3b286d6edcca",
+    "__typename": "DesignPreferenceColor",
+    "featureName": "Aloha Color Preference",
+    "featureValueType": "color",
+    "supportsCustomization": true,
+    "colorValue": {
+      "__typename": "Color",
+      "hex": "#ffffff",
+      "isLight": true
+    }
+  },
+  "DesignPreferenceColor:9f31411b-0698-4fe1-ae16-e8878fb8b90d": {
+    "id": "9f31411b-0698-4fe1-ae16-e8878fb8b90d",
+    "__typename": "DesignPreferenceColor",
+    "featureName": "Aloha Text Color Preference",
+    "featureValueType": "color",
+    "supportsCustomization": true,
+    "colorValue": {
+      "__typename": "Color",
+      "hex": "#333333",
+      "isLight": false
+    }
+  },
+  "Theme:684b1031-4272-52a1-9980-f55f15abe8e1": {
+    "id": "684b1031-4272-52a1-9980-f55f15abe8e1",
+    "__typename": "Theme",
+    "themeId": "blank",
+    "name": "Blank",
+    "colorSchemes": [
+      {
+        "__ref": "ThemeColorScheme:bd3e660d-ab82-4993-9d8c-11a26d70f659"
+      }
+    ],
+    "designLayouts": [
+      {
+        "__ref": "DesignLayout:8254277b-b461-431e-80ad-afbc22fc4468"
+      },
+      {
+        "__ref": "DesignLayout:e95f1257-52bb-4ff2-8836-7b1a3ddd32ac"
+      }
+    ],
+    "websiteLayoutBrannanSettings": {
+      "__typename": "WebsiteLayoutBrannanSettings",
+      "brannanBackgroundTransparency": null
+    },
+    "websiteLayoutAlohaSettings": {
+      "__typename": "WebsiteLayoutAlohaSettings",
+      "alohaColorPreference": {
+        "__ref": "DesignPreferenceColor:dc11e51c-46ad-41a8-9863-3b286d6edcca"
+      },
+      "alohaTextColorPreference": {
+        "__ref": "DesignPreferenceColor:9f31411b-0698-4fe1-ae16-e8878fb8b90d"
+      }
+    }
+  },
+  "ColorSet:00000000-0000-0000-0000-000000000000": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "__typename": "ColorSet",
+    "color": {
+      "__typename": "Color",
+      "hex": "#dd571c",
+      "isLight": false
+    }
+  },
+  "ColorSet:00000000-0000-0000-0000-000000000001": {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "__typename": "ColorSet",
+    "color": {
+      "__typename": "Color",
+      "hex": "#333333",
+      "isLight": false
+    }
+  },
+  "ColorSet:00000000-0000-0000-0000-000000000002": {
+    "id": "00000000-0000-0000-0000-000000000002",
+    "__typename": "ColorSet",
+    "color": {
+      "__typename": "Color",
+      "hex": "#ffffff",
+      "isLight": true
+    }
+  },
+  "ColorSet:00000000-0000-0000-0000-000000000003": {
+    "id": "00000000-0000-0000-0000-000000000003",
+    "__typename": "ColorSet",
+    "color": {
+      "__typename": "Color",
+      "hex": "#f3eee8",
+      "isLight": true
+    }
+  },
+  "ColorSet:00000000-0000-0000-0000-000000000004": {
+    "id": "00000000-0000-0000-0000-000000000004",
+    "__typename": "ColorSet",
+    "color": {
+      "__typename": "Color",
+      "hex": "#65473c",
+      "isLight": false
+    }
+  },
+  "CustomThemeAsset:05fae925-61be-4ea0-95db-ab87543aaaa1": {
+    "id": "05fae925-61be-4ea0-95db-ab87543aaaa1",
+    "__typename": "CustomThemeAsset",
+    "assetURL": "https://withjoy.com/media/06074c1a-1ccd-511f-88dc-5ad18eb4b47d/549a8fd0-41a9-11f1-9a1e-677ea1634cc8-Fleurs_8.png"
+  },
+  "CustomThemeAsset:719be19c-2696-48c6-968a-1b9fea0dbe0d": {
+    "id": "719be19c-2696-48c6-968a-1b9fea0dbe0d",
+    "__typename": "CustomThemeAsset",
+    "assetURL": "https://withjoy.com/media/06074c1a-1ccd-511f-88dc-5ad18eb4b47d/461393c0-3bba-11f1-ae38-03e41796c2df-T%26B%20flower%20background.png"
+  },
+  "CustomTheme:813ce1ca-d7db-4d3c-a29b-2434cfe086aa": {
+    "id": "813ce1ca-d7db-4d3c-a29b-2434cfe086aa",
+    "__typename": "CustomTheme",
+    "desktopThemeAsset": {
+      "__ref": "CustomThemeAsset:05fae925-61be-4ea0-95db-ab87543aaaa1"
+    },
+    "mobileThemeAsset": {
+      "__ref": "CustomThemeAsset:719be19c-2696-48c6-968a-1b9fea0dbe0d"
+    }
+  },
+  "EventDesignPreferenceColorPointer:c5ed34f8-8c71-46cd-9b47-6910119e125f": {
+    "id": "c5ed34f8-8c71-46cd-9b47-6910119e125f",
+    "__typename": "EventDesignPreferenceColorPointer",
+    "featureName": "Aloha Color Preference",
+    "featureType": "alohaColorPreference",
+    "colorPointer": 0,
+    "colorPointerPosition": "theme"
+  },
+  "EventDesignPreferenceColorPointer:ec5ef3df-c274-43fb-9bdc-095f2c3d130b": {
+    "id": "ec5ef3df-c274-43fb-9bdc-095f2c3d130b",
+    "__typename": "EventDesignPreferenceColorPointer",
+    "featureName": "Aloha Text Color Preference",
+    "featureType": "alohaTextColorPreference",
+    "colorPointer": 1,
+    "colorPointerPosition": "theme"
+  },
+  "EventDesignPreferenceColorPointer:299dc6d5-75b9-4ecd-9810-2191ab9f5992": {
+    "id": "299dc6d5-75b9-4ecd-9810-2191ab9f5992",
+    "__typename": "EventDesignPreferenceColorPointer",
+    "featureName": "Brannan Color Preference",
+    "featureType": "brannanColorPreference",
+    "colorPointer": 0,
+    "colorPointerPosition": "theme"
+  },
+  "EventDesignPreferenceColorPointer:be797a47-dcaa-4b10-b650-51c38e79363f": {
+    "id": "be797a47-dcaa-4b10-b650-51c38e79363f",
+    "__typename": "EventDesignPreferenceColorPointer",
+    "featureName": "Brannan Text Color Preference",
+    "featureType": "brannanTextColorPreference",
+    "colorPointer": 1,
+    "colorPointerPosition": "theme"
+  },
+  "EventDesignPreferenceRange:8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec": {
+    "id": "8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec",
+    "__typename": "EventDesignPreferenceRange",
+    "featureId": "577983fe-87c9-4ee8-aa87-2e5d8586f0c2",
+    "featureName": "Brannan Background Transparency",
+    "featureType": "brannanBackgroundTransparency",
+    "featureValueType": "range",
+    "rangeValue": 1
+  },
+  "EventDesignPreferenceBoolean:dd0aac8a-035d-4f00-82d1-523572b5d76d": {
+    "id": "dd0aac8a-035d-4f00-82d1-523572b5d76d",
+    "__typename": "EventDesignPreferenceBoolean",
+    "featureId": "754bf497-e5a0-4fae-b15b-953fb4c353f7",
+    "featureName": "Brannan Border",
+    "featureType": "brannanInnerFrameBorder",
+    "featureValueType": "boolean",
+    "booleanValue": true
+  },
+  "Photo:f172c5bf-943a-59d1-bf34-0e0e91a446b4": {
+    "id": "f172c5bf-943a-59d1-bf34-0e0e91a446b4",
+    "__typename": "Photo",
+    "url": "https://withjoy.com/media/ede5a6af83d73f0cc32f30ff53821b7961672e52f7596c898/399149d0-3df9-11f1-a286-4b83e5c7fa75-Brady%20-70.jpg",
+    "width": 1,
+    "height": 1,
+    "layout": {
+      "__typename": "PhotoLayout",
+      "alignX": "center",
+      "alignY": "center"
+    }
+  },
+  "Photo:27245b56-9ba2-5895-b31b-23852e93b5ed": {
+    "id": "27245b56-9ba2-5895-b31b-23852e93b5ed",
+    "__typename": "Photo",
+    "url": "https://withjoy.com/media/ede5a6af83d73f0cc32f30ff53821b7961672e52f7596c898/2e105290-3bbf-11f1-8a1f-c3472b7afe94-T%26B%20photo%20%26%20monogramme_Re%CC%81ponse%20mail.png",
+    "width": 1,
+    "height": 1,
+    "layout": {
+      "__typename": "PhotoLayout",
+      "alignX": "center",
+      "alignY": "center"
+    }
+  }
+}

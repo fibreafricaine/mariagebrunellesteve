@@ -1,0 +1,238 @@
+--- SEARCHING FOR TEXT CONTENTS ---
+Key: PublicUserConsent:7b105a18-b689-4f28-a6ea-d53bb5bd85b4 (Type: PublicUserConsent)
+  id: 7b105a18-b689-4f28-a6ea-d53bb5bd85b4
+  consentKey: hasSeenAccommodationsTour
+  createdAt: 2026-04-20T05:48:20.180Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:6b5562cb-f8e6-440a-827e-7bb79e9cd567 (Type: PublicUserConsent)
+  id: 6b5562cb-f8e6-440a-827e-7bb79e9cd567
+  consentKey: hasSeenAccommodationsVisibilityBanner
+  createdAt: 2026-04-27T12:45:17.617Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:ef3a09c3-4941-43f7-8a39-738ef4025057 (Type: PublicUserConsent)
+  id: ef3a09c3-4941-43f7-8a39-738ef4025057
+  consentKey: hasSeenBookingAssistantTooltip
+  createdAt: 2026-04-18T03:51:40.594Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:73c06a0f-7684-42dd-8d58-72435d100cda (Type: PublicUserConsent)
+  id: 73c06a0f-7684-42dd-8d58-72435d100cda
+  consentKey: hasSeenOnboardingVenueDialog
+  createdAt: 2026-04-18T17:29:29.802Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:6fbec38e-80bb-4f33-8e51-7280c0187b49 (Type: PublicUserConsent)
+  id: 6fbec38e-80bb-4f33-8e51-7280c0187b49
+  consentKey: scheduleOptOutWhereToStayLink
+  createdAt: 2026-04-18T05:01:26.055Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:58fcae33-9f48-4515-b173-176d0b5dbaf2 (Type: PublicUserConsent)
+  id: 58fcae33-9f48-4515-b173-176d0b5dbaf2
+  consentKey: showBookingLinksOnRegistryPurchaseConfirmation
+  createdAt: 2026-04-18T05:01:28.305Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:3400b1b0-6e65-42a5-97fe-0d407a554ec5 (Type: PublicUserConsent)
+  id: 3400b1b0-6e65-42a5-97fe-0d407a554ec5
+  consentKey: showExploreMoreStaysOnGuestSite
+  createdAt: 2026-04-18T05:01:26.623Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:0c011c5f-4f8e-4812-9c0d-0255bfe64fd7 (Type: PublicUserConsent)
+  id: 0c011c5f-4f8e-4812-9c0d-0255bfe64fd7
+  consentKey: showStayAreasOnGuestSite
+  createdAt: 2026-04-18T05:01:27.409Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:87319ad3-dcc9-447d-88d3-3efeb212e819 (Type: PublicUserConsent)
+  id: 87319ad3-dcc9-447d-88d3-3efeb212e819
+  consentKey: websiteAllowHotelLinkIntercept
+  createdAt: 2026-04-19T18:54:49.190Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: PublicUserConsent:db814b63-75f6-4199-bde0-072006815215 (Type: PublicUserConsent)
+  id: db814b63-75f6-4199-bde0-072006815215
+  consentKey: websiteOptOutTripProfit
+  createdAt: 2026-04-18T05:01:27.913Z
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: EventPageInfo:59989c79-b828-5913-a76c-47627333de85 (Type: EventPageInfo)
+  id: 59989c79-b828-5913-a76c-47627333de85
+Key: EventPageInfo:38230516-82c2-5be2-9517-74e3e15fea92 (Type: EventPageInfo)
+  id: 38230516-82c2-5be2-9517-74e3e15fea92
+Key: EventPageInfo:d23d5e87-704a-4174-ae88-4abc2b186e07 (Type: EventPageInfo)
+  id: d23d5e87-704a-4174-ae88-4abc2b186e07
+Key: EventPage:{"id":"d23d5e87-704a-4174-ae88-4abc2b186e07"} (Type: EventPage)
+  id: d23d5e87-704a-4174-ae88-4abc2b186e07
+Key: EventPage:{"id":"38230516-82c2-5be2-9517-74e3e15fea92"} (Type: EventPage)
+  id: 38230516-82c2-5be2-9517-74e3e15fea92
+Key: EventPage:{"id":"e182dd1b-fa61-4f68-8218-8b7a03213700"} (Type: EventPage)
+  id: e182dd1b-fa61-4f68-8218-8b7a03213700
+Key: EventPage:{"id":"93bcf2ac-be26-45a1-8ea9-4357aa09e838"} (Type: EventPage)
+  id: 93bcf2ac-be26-45a1-8ea9-4357aa09e838
+Key: EventPage:{"id":"93061a6c-cb62-4d26-9bb5-a25050b0f8d5"} (Type: EventPage)
+  id: 93061a6c-cb62-4d26-9bb5-a25050b0f8d5
+  pageTitle: Informations pratiques
+Key: EventPage:{"id":"d469ed20-8719-470a-8e6e-cd525ab102a0"} (Type: EventPage)
+  id: d469ed20-8719-470a-8e6e-cd525ab102a0
+Key: Event:{"id":"06074c1a-1ccd-511f-88dc-5ad18eb4b47d"} (Type: Event)
+  id: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+  firebaseId: ede5a6af83d73f0cc32f30ff53821b7961672e52f7596c898
+Key: EventInfo:{"id":"7c81219d-2e09-595d-b220-924d5ad6733f"} (Type: EventInfo)
+  id: 7c81219d-2e09-595d-b220-924d5ad6733f
+  greeting: Merci de bien vouloir confirmer votre présence 𝗮𝘃𝗮𝗻𝘁 𝗹𝗲 𝗹𝘂𝗻𝗱𝗶 𝟰 𝗺𝗮𝗶 𝟮𝟬𝟮𝟲 en cliquant sur le bouton « RSVP ». 
+
+Deux cœurs, une promesse, un avenir à célébrer… C’est avec une immense joie que nous vous invitons à célébrer notre union et à partager avec nous la journée de notre mariage! Votre présence apportera une touche précieuse à ce moment unique, empreint d’amour, de bonheur et de souvenirs inoubliables.
+Key: EventSettings:623b5890-1b63-5078-8b88-684656311f7a (Type: EventSettings)
+  id: 623b5890-1b63-5078-8b88-684656311f7a
+Key: DefaultPagePhoto:6ef3b170-ef47-54c2-becb-7a1ec5f6adb2 (Type: DefaultPagePhoto)
+  id: 6ef3b170-ef47-54c2-becb-7a1ec5f6adb2
+Key: Photo:1b990a65-0cee-5ff3-9a09-52d8ea248037 (Type: Photo)
+  id: 1b990a65-0cee-5ff3-9a09-52d8ea248037
+Key: Photo:5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c (Type: Photo)
+  id: 5c4308c1-f8eb-5f8b-b7ab-6fb01195e20c
+Key: PageContainer:d23d5e87-704a-4174-ae88-4abc2b186e07 (Type: PageContainer)
+  id: d23d5e87-704a-4174-ae88-4abc2b186e07
+Key: PageContainer:e182dd1b-fa61-4f68-8218-8b7a03213700 (Type: PageContainer)
+  id: e182dd1b-fa61-4f68-8218-8b7a03213700
+Key: PageContainer:93bcf2ac-be26-45a1-8ea9-4357aa09e838 (Type: PageContainer)
+  id: 93bcf2ac-be26-45a1-8ea9-4357aa09e838
+Key: PageContainer:93061a6c-cb62-4d26-9bb5-a25050b0f8d5 (Type: PageContainer)
+  id: 93061a6c-cb62-4d26-9bb5-a25050b0f8d5
+Key: PageContainer:d469ed20-8719-470a-8e6e-cd525ab102a0 (Type: PageContainer)
+  id: d469ed20-8719-470a-8e6e-cd525ab102a0
+Key: DesignLayout:e95f1257-52bb-4ff2-8836-7b1a3ddd32ac (Type: DesignLayout)
+  id: e95f1257-52bb-4ff2-8836-7b1a3ddd32ac
+Key: WebsiteHeaderPresentationSettings:{"id":"06074c1a-1ccd-511f-88dc-5ad18eb4b47d","schemaURL":"https://withjoy.com/assets/public/websiteHeaderSchemas/videoBackground-v1_1_1.json","websiteLayout":"brannan"} (Type: WebsiteHeaderPresentationSettings)
+  id: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+  __typename: WebsiteHeaderPresentationSettings
+  eventId: 06074c1a-1ccd-511f-88dc-5ad18eb4b47d
+Key: EventDesign:256d1fbe-462d-562b-9d95-d91d22f3ad0e (Type: EventDesign)
+  id: 256d1fbe-462d-562b-9d95-d91d22f3ad0e
+  customCss: a[href="https://help.withjoy.com/"],
+a[href="https://withjoy.com/about/"],
+a[href="https://withjoy.com/wedding-website"] {
+  display: none !important;
+}
+a#menu2brand {
+  display: none !important;
+}
+Key: EventSession:00000000-0000-0000-0000-000000000000 (Type: EventSession)
+  id: 00000000-0000-0000-0000-000000000000
+Key: EventPageInfo:e182dd1b-fa61-4f68-8218-8b7a03213700 (Type: EventPageInfo)
+  id: e182dd1b-fa61-4f68-8218-8b7a03213700
+Key: EventPageInfo:93bcf2ac-be26-45a1-8ea9-4357aa09e838 (Type: EventPageInfo)
+  id: 93bcf2ac-be26-45a1-8ea9-4357aa09e838
+Key: EventPageInfo:93061a6c-cb62-4d26-9bb5-a25050b0f8d5 (Type: EventPageInfo)
+  id: 93061a6c-cb62-4d26-9bb5-a25050b0f8d5
+Key: EventPageInfo:d469ed20-8719-470a-8e6e-cd525ab102a0 (Type: EventPageInfo)
+  id: d469ed20-8719-470a-8e6e-cd525ab102a0
+Key: EventPageInfo:4aacdbb3-ac44-51fb-91ed-3ce379114152 (Type: EventPageInfo)
+  id: 4aacdbb3-ac44-51fb-91ed-3ce379114152
+Key: EventPageInfo:311d0966-b01a-5da3-a462-77de86e48485 (Type: EventPageInfo)
+  id: 311d0966-b01a-5da3-a462-77de86e48485
+Key: EventPageInfo:dd2b1200-8f9c-4b2c-b7db-5151e8a0f912 (Type: EventPageInfo)
+  id: dd2b1200-8f9c-4b2c-b7db-5151e8a0f912
+Key: EventPageInfo:cd447354-743b-4bcd-926d-b4afefdf9618 (Type: EventPageInfo)
+  id: cd447354-743b-4bcd-926d-b4afefdf9618
+Key: EventPageInfo:1b1ea669-667b-40fe-b04d-045b90d9b632 (Type: EventPageInfo)
+  id: 1b1ea669-667b-40fe-b04d-045b90d9b632
+Key: EventPageInfo:79c4980d-a39e-4984-9a21-5ea23bb486a1 (Type: EventPageInfo)
+  id: 79c4980d-a39e-4984-9a21-5ea23bb486a1
+Key: Font:31a0a0b8-e094-5bb7-89d5-391416a1485b (Type: Font)
+  id: 31a0a0b8-e094-5bb7-89d5-391416a1485b
+Key: Font:0976eda8-747d-5fcf-9fa2-8d5af9e89ead (Type: Font)
+  id: 0976eda8-747d-5fcf-9fa2-8d5af9e89ead
+Key: FontPackConfiguration:22ac70b2-34cb-4545-af61-476210d273f5 (Type: FontPackConfiguration)
+  id: 22ac70b2-34cb-4545-af61-476210d273f5
+  __typename: FontPackConfiguration
+Key: Font:3087eefe-34cf-56a1-94f6-53ae6aec0872 (Type: Font)
+  id: 3087eefe-34cf-56a1-94f6-53ae6aec0872
+Key: FontPackConfiguration:c0a2f6b7-314d-4710-84bb-835055ce0d25 (Type: FontPackConfiguration)
+  id: c0a2f6b7-314d-4710-84bb-835055ce0d25
+  __typename: FontPackConfiguration
+Key: FontPackConfiguration:093266f5-c3ec-47ce-9677-a9d2fb206109 (Type: FontPackConfiguration)
+  id: 093266f5-c3ec-47ce-9677-a9d2fb206109
+  __typename: FontPackConfiguration
+Key: Font:70387fc9-03aa-54fd-bc7c-a511215e7458 (Type: Font)
+  id: 70387fc9-03aa-54fd-bc7c-a511215e7458
+Key: FontPackConfiguration:a549cd5f-1ef6-485f-ab02-5d54973d8a81 (Type: FontPackConfiguration)
+  id: a549cd5f-1ef6-485f-ab02-5d54973d8a81
+  __typename: FontPackConfiguration
+Key: FontPackConfiguration:2d6097f1-d3c8-4b12-add2-4b60bca8221a (Type: FontPackConfiguration)
+  id: 2d6097f1-d3c8-4b12-add2-4b60bca8221a
+  __typename: FontPackConfiguration
+Key: FontPackConfiguration:0fda3f08-47ac-4e2f-8a08-3422b94fb444 (Type: FontPackConfiguration)
+  id: 0fda3f08-47ac-4e2f-8a08-3422b94fb444
+  __typename: FontPackConfiguration
+Key: FontPackConfiguration:24a1536f-7daf-4d08-9d85-238eaa4222f6 (Type: FontPackConfiguration)
+  id: 24a1536f-7daf-4d08-9d85-238eaa4222f6
+  __typename: FontPackConfiguration
+Key: Font:98d14ff9-f012-4439-b3c6-44a64ded5674 (Type: Font)
+  id: 98d14ff9-f012-4439-b3c6-44a64ded5674
+Key: FontPackConfiguration:c244ea1b-4576-41b6-9acc-999358af38d9 (Type: FontPackConfiguration)
+  id: c244ea1b-4576-41b6-9acc-999358af38d9
+  __typename: FontPackConfiguration
+Key: FontPackConfiguration:e23bf153-d078-4fb9-beea-18dfcdb2f0c8 (Type: FontPackConfiguration)
+  id: e23bf153-d078-4fb9-beea-18dfcdb2f0c8
+  __typename: FontPackConfiguration
+Key: FontPackConfiguration:6fa66857-a921-4a95-a006-de2655c109e1 (Type: FontPackConfiguration)
+  id: 6fa66857-a921-4a95-a006-de2655c109e1
+  __typename: FontPackConfiguration
+Key: ThemeColorScheme:bd3e660d-ab82-4993-9d8c-11a26d70f659 (Type: ThemeColorScheme)
+  id: bd3e660d-ab82-4993-9d8c-11a26d70f659
+Key: DesignLayout:8254277b-b461-431e-80ad-afbc22fc4468 (Type: DesignLayout)
+  id: 8254277b-b461-431e-80ad-afbc22fc4468
+Key: DesignPreferenceColor:dc11e51c-46ad-41a8-9863-3b286d6edcca (Type: DesignPreferenceColor)
+  id: dc11e51c-46ad-41a8-9863-3b286d6edcca
+  __typename: DesignPreferenceColor
+  featureName: Aloha Color Preference
+Key: DesignPreferenceColor:9f31411b-0698-4fe1-ae16-e8878fb8b90d (Type: DesignPreferenceColor)
+  id: 9f31411b-0698-4fe1-ae16-e8878fb8b90d
+  __typename: DesignPreferenceColor
+  featureName: Aloha Text Color Preference
+Key: Theme:684b1031-4272-52a1-9980-f55f15abe8e1 (Type: Theme)
+  id: 684b1031-4272-52a1-9980-f55f15abe8e1
+Key: ColorSet:00000000-0000-0000-0000-000000000000 (Type: ColorSet)
+  id: 00000000-0000-0000-0000-000000000000
+Key: ColorSet:00000000-0000-0000-0000-000000000001 (Type: ColorSet)
+  id: 00000000-0000-0000-0000-000000000001
+Key: ColorSet:00000000-0000-0000-0000-000000000002 (Type: ColorSet)
+  id: 00000000-0000-0000-0000-000000000002
+Key: ColorSet:00000000-0000-0000-0000-000000000003 (Type: ColorSet)
+  id: 00000000-0000-0000-0000-000000000003
+Key: ColorSet:00000000-0000-0000-0000-000000000004 (Type: ColorSet)
+  id: 00000000-0000-0000-0000-000000000004
+Key: CustomThemeAsset:05fae925-61be-4ea0-95db-ab87543aaaa1 (Type: CustomThemeAsset)
+  id: 05fae925-61be-4ea0-95db-ab87543aaaa1
+Key: CustomThemeAsset:719be19c-2696-48c6-968a-1b9fea0dbe0d (Type: CustomThemeAsset)
+  id: 719be19c-2696-48c6-968a-1b9fea0dbe0d
+Key: CustomTheme:813ce1ca-d7db-4d3c-a29b-2434cfe086aa (Type: CustomTheme)
+  id: 813ce1ca-d7db-4d3c-a29b-2434cfe086aa
+Key: EventDesignPreferenceColorPointer:c5ed34f8-8c71-46cd-9b47-6910119e125f (Type: EventDesignPreferenceColorPointer)
+  id: c5ed34f8-8c71-46cd-9b47-6910119e125f
+  __typename: EventDesignPreferenceColorPointer
+  featureName: Aloha Color Preference
+Key: EventDesignPreferenceColorPointer:ec5ef3df-c274-43fb-9bdc-095f2c3d130b (Type: EventDesignPreferenceColorPointer)
+  id: ec5ef3df-c274-43fb-9bdc-095f2c3d130b
+  __typename: EventDesignPreferenceColorPointer
+  featureName: Aloha Text Color Preference
+  featureType: alohaTextColorPreference
+Key: EventDesignPreferenceColorPointer:299dc6d5-75b9-4ecd-9810-2191ab9f5992 (Type: EventDesignPreferenceColorPointer)
+  id: 299dc6d5-75b9-4ecd-9810-2191ab9f5992
+  __typename: EventDesignPreferenceColorPointer
+  featureName: Brannan Color Preference
+  featureType: brannanColorPreference
+Key: EventDesignPreferenceColorPointer:be797a47-dcaa-4b10-b650-51c38e79363f (Type: EventDesignPreferenceColorPointer)
+  id: be797a47-dcaa-4b10-b650-51c38e79363f
+  __typename: EventDesignPreferenceColorPointer
+  featureName: Brannan Text Color Preference
+  featureType: brannanTextColorPreference
+Key: EventDesignPreferenceRange:8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec (Type: EventDesignPreferenceRange)
+  id: 8115bd66-5d10-426c-a2c4-bc5c9eb4f1ec
+  __typename: EventDesignPreferenceRange
+  featureId: 577983fe-87c9-4ee8-aa87-2e5d8586f0c2
+  featureName: Brannan Background Transparency
+  featureType: brannanBackgroundTransparency
+Key: EventDesignPreferenceBoolean:dd0aac8a-035d-4f00-82d1-523572b5d76d (Type: EventDesignPreferenceBoolean)
+  id: dd0aac8a-035d-4f00-82d1-523572b5d76d
+  __typename: EventDesignPreferenceBoolean
+  featureId: 754bf497-e5a0-4fae-b15b-953fb4c353f7
+  featureType: brannanInnerFrameBorder
+Key: Photo:f172c5bf-943a-59d1-bf34-0e0e91a446b4 (Type: Photo)
+  id: f172c5bf-943a-59d1-bf34-0e0e91a446b4
+Key: Photo:27245b56-9ba2-5895-b31b-23852e93b5ed (Type: Photo)
+  id: 27245b56-9ba2-5895-b31b-23852e93b5ed
