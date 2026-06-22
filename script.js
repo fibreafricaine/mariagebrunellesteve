@@ -4,6 +4,7 @@
 const WEDDING_DATE = new Date("August 22, 2026 14:30:00").getTime();
 const RSVP_STORAGE_KEY = "wedding_rsvp_list";
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxmr4GNdwoznr9S0t9O6MaDMZ9aVqkBwYgb_jFGakmxPQIMQAaq67mDkEbbz1UBZkmBqg/exec"; // Insérez l'URL de votre Web App Google Apps Script ici pour lier Google Sheets
+
 document.addEventListener("DOMContentLoaded", () => {
     initCountdown();
     initMobileMenu();
@@ -139,14 +140,42 @@ function initRSVP() {
 
         const newRSVP = { name, attending, guests, message, date: new Date().toLocaleString() };
 
-        // Save to localStorage
+        // Save to localStorage (as a local backup)
         let currentRSVPs = JSON.parse(localStorage.getItem(RSVP_STORAGE_KEY)) || [];
         currentRSVPs.push(newRSVP);
         localStorage.setItem(RSVP_STORAGE_KEY, JSON.stringify(currentRSVPs));
 
-        // Animation transition to success state
-        form.style.display = "none";
-        successBox.style.display = "block";
+        const submitBtn = form.querySelector('.rsvp-submit-btn');
+        const originalText = submitBtn.innerText;
+
+        if (GOOGLE_SCRIPT_URL) {
+            submitBtn.innerText = "Envoi en cours...";
+            submitBtn.disabled = true;
+
+            fetch(GOOGLE_SCRIPT_URL, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "text/plain;charset=utf-8" // Évite la requête de pré-vérification CORS (preflight OPTIONS)
+                },
+                body: JSON.stringify(newRSVP)
+            })
+            .then(() => {
+                form.style.display = "none";
+                successBox.style.display = "block";
+            })
+            .catch(err => {
+                console.error("Erreur d'envoi RSVP:", err);
+                alert("Une erreur est survenue lors de l'enregistrement de votre réponse. Veuillez réessayer ou contacter Steve ou Brunelle.");
+            })
+            .finally(() => {
+                submitBtn.innerText = originalText;
+                submitBtn.disabled = false;
+            });
+        } else {
+            // Pas de backend configuré, comportement par défaut (local)
+            form.style.display = "none";
+            successBox.style.display = "block";
+        }
     });
 }
 
@@ -257,6 +286,7 @@ function initAdmin() {
 
     let currentFilter = "all";
     let searchQuery = "";
+    let localRSVPsList = [];
 
     adminTrigger.addEventListener("click", () => {
         // Request simple wedding password
@@ -269,9 +299,10 @@ function initAdmin() {
             filterTabs.forEach(t => t.classList.remove("active"));
             document.querySelector('.filter-tab[data-filter="all"]').classList.add("active");
             
-            renderAdminTable();
             adminModal.style.display = "flex";
             document.body.style.overflow = "hidden";
+
+            loadRSVPData();
         } else if (password !== null) {
             alert("Mot de passe incorrect.");
         }
@@ -307,16 +338,37 @@ function initAdmin() {
         });
     });
 
+    function loadRSVPData() {
+        if (GOOGLE_SCRIPT_URL) {
+            tableBody.innerHTML = `<tr><td colspan="4" style="text-align: center; color: var(--charcoal-light); padding: 2rem;"><i class="fa-solid fa-spinner fa-spin"></i> Chargement des réponses depuis Google Sheets...</td></tr>`;
+            
+            fetch(GOOGLE_SCRIPT_URL)
+                .then(res => {
+                    if (!res.ok) throw new Error("Erreur HTTP " + res.status);
+                    return res.json();
+                })
+                .then(data => {
+                    localRSVPsList = data;
+                    renderAdminTable();
+                })
+                .catch(err => {
+                    console.error("Erreur de chargement des RSVP:", err);
+                    tableBody.innerHTML = `<tr><td colspan="4" style="text-align: center; color: #c0392b; padding: 2rem;">Erreur de chargement. Veuillez vérifier la connexion ou la configuration.</td></tr>`;
+                });
+        } else {
+            localRSVPsList = JSON.parse(localStorage.getItem(RSVP_STORAGE_KEY)) || [];
+            renderAdminTable();
+        }
+    }
+
     function renderAdminTable() {
-        const rsvps = JSON.parse(localStorage.getItem(RSVP_STORAGE_KEY)) || [];
-        
         // 1. Calculate & Display statistics (always based on full list)
-        const totalCount = rsvps.length;
-        const confirmedCount = rsvps.filter(r => r.attending === "yes").length;
-        const absentCount = rsvps.filter(r => r.attending === "no").length;
+        const totalCount = localRSVPsList.length;
+        const confirmedCount = localRSVPsList.filter(r => r.attending === "yes").length;
+        const absentCount = localRSVPsList.filter(r => r.attending === "no").length;
         
         // Total people coming = main confirmed guests + their additional guests
-        const totalPeopleCount = rsvps
+        const totalPeopleCount = localRSVPsList
             .filter(r => r.attending === "yes")
             .reduce((sum, r) => {
                 const guestsNum = parseInt(r.guests, 10);
@@ -329,7 +381,7 @@ function initAdmin() {
         statAbsent.innerText = absentCount;
 
         // 2. Filter list
-        let filteredRsvps = rsvps;
+        let filteredRsvps = localRSVPsList;
         
         // Filter by attendance status
         if (currentFilter === "yes") {
@@ -348,7 +400,7 @@ function initAdmin() {
         tableBody.innerHTML = "";
 
         if (filteredRsvps.length === 0) {
-            const noDataMessage = rsvps.length === 0 
+            const noDataMessage = localRSVPsList.length === 0 
                 ? "Aucune réponse enregistrée pour le moment." 
                 : "Aucune réponse ne correspond à vos critères de recherche.";
             
@@ -375,24 +427,23 @@ function initAdmin() {
 
     // Export CSV logic
     exportBtn.addEventListener("click", () => {
-        const rsvps = JSON.parse(localStorage.getItem(RSVP_STORAGE_KEY)) || [];
-        if (rsvps.length === 0) {
+        if (localRSVPsList.length === 0) {
             alert("Aucune donnée à exporter.");
             return;
         }
 
         // CSV Header
-        let csvContent = "data:text/csv;charset=utf-8,\uFEFF"; // Add BOM for excel french accents
+        let csvContent = "data:text/csv;charset=utf-8,\uFEFF"; // Ajoute le BOM pour la gestion des accents français dans Excel
         csvContent += "Nom,Presence,Accompagnateurs,Message,Date d'inscription\n";
 
-        rsvps.forEach(rsvp => {
+        localRSVPsList.forEach(rsvp => {
             const presence = rsvp.attending === "yes" ? "Présent" : "Absent";
             const row = [
                 `"${rsvp.name.replace(/"/g, '""')}"`,
                 `"${presence}"`,
                 `"${rsvp.guests}"`,
                 `"${rsvp.message.replace(/"/g, '""')}"`,
-                `"${rsvp.date}"`
+                `"${rsvp.date || ''}"`
             ].join(",");
             csvContent += row + "\n";
         });
@@ -408,7 +459,12 @@ function initAdmin() {
 
     // Reset database
     clearBtn.addEventListener("click", () => {
-        if (confirm("Attention ! Voulez-vous vraiment réinitialiser toutes les réponses RSVP ? Cette action est irréversible.")) {
+        if (GOOGLE_SCRIPT_URL) {
+            alert("Pour réinitialiser les réponses, veuillez vider directement les lignes de votre tableau Google Sheets (sauf la ligne d'en-tête). Par mesure de sécurité, la suppression depuis le site est désactivée lorsque Google Sheets est connecté.");
+            return;
+        }
+
+        if (confirm("Attention ! Voulez-vous vraiment réinitialiser toutes les réponses RSVP ? Cette action est irréversible (concerne uniquement le stockage local de ce navigateur).")) {
             localStorage.removeItem(RSVP_STORAGE_KEY);
             // Reset filter controls in DOM
             currentFilter = "all";
@@ -416,6 +472,7 @@ function initAdmin() {
             searchInput.value = "";
             filterTabs.forEach(t => t.classList.remove("active"));
             document.querySelector('.filter-tab[data-filter="all"]').classList.add("active");
+            localRSVPsList = [];
             renderAdminTable();
         }
     });
