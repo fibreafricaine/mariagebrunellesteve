@@ -3,7 +3,7 @@
 // ==========================================
 const WEDDING_DATE = new Date("August 22, 2026 14:30:00").getTime();
 const RSVP_STORAGE_KEY = "wedding_rsvp_list";
-
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxmr4GNdwoznr9S0t9O6MaDMZ9aVqkBwYgb_jFGakmxPQIMQAaq67mDkEbbz1UBZkmBqg/exec"; // Insérez l'URL de votre Web App Google Apps Script ici pour lier Google Sheets
 document.addEventListener("DOMContentLoaded", () => {
     initCountdown();
     initMobileMenu();
